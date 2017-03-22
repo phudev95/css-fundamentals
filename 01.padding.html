@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Padding</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        #ex1 .box {
+            background: grey;
+            width: 80px;
+            height: 20px;
+            margin-bottom: 16px;
+        }
+
+        #ex1 .paragraph {
+            background: antiquewhite;
+            width: 80px;
+            height: 20px;
+            display: block;
+            margin-top: 20px;
+        }
+
+        #ex2 .piece {
+            float: left;
+        }
+
+        #ex2 .p1 {
+            margin-right: 20px;
+        }
+
+        #ex2 .p2 {
+            margin-left: 20px;
+            outline: dashed;
+        }
+    </style>
+</head>
+<body>
+    <div id="ex1">
+        <div class="box">
+            hello
+        </div>
+        <p class="paragraph">baby</p>
+    </div>
+
+    <div id="ex2">
+        <div class="piece p1">Piece 1</div>
+        <div class="piece p2">Piece 2</div>
+    </div>
+</body>
+</html>
